@@ -1,0 +1,290 @@
+/* Title Section */
+#title {
+  background-color: #E1578A;
+  color: #fff;
+}
+
+title {
+  color: black;
+}
+
+/* HTML Elements */
+h1, h2 h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 2.6rem;
+  line-height: 1.5;
+  font-stretch: condensed;
+}
+
+h2 {
+  font-weight: bolder;
+  line-height: 2;
+  font-size: 2rem;
+}
+
+h3 {
+  font-weight: bolder;
+}
+
+p {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* body {
+  text-align: center;
+} */
+
+/* Nav Bar */
+#navbar {
+  background-color: transparent;
+  margin-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  padding-left: 100px;
+  padding-right: 700px;
+  line-height: 2.5rem;
+}
+
+
+.nav-item {
+  padding: 0 10px;
+}
+
+a {
+  color: #FFE6AB;
+}
+
+/* Title-Section */
+
+.btn {
+  text-align: left;
+  margin: 0 15px;
+}
+
+/* main page */
+#main-img {
+  transform: rotate(25deg);
+  height: 95%;
+  margin-left: 100px;
+}
+
+/* Section containing main image   */
+.title-section-img {
+  width: 40%;
+  position: relative;
+  margin: 0;
+}
+
+
+#main-col {
+  padding-left: 70px;
+  position: relative;
+  margin: 0;
+}
+
+.apple-img {
+  width: 30%;
+}
+
+.main-title {
+  text-align: left;
+  color: #fff;
+  line-height: 5rem;
+  font-size: 4rem;
+  font-family: 'Gentium Book Basic', serif;
+}
+
+#btn {
+  margin: 0 15px;
+}
+
+body {
+  font: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+/* Features Section */
+.features {
+  text-align: center;
+  padding-left: 100px;
+  margin: 20px 0;
+  position: relative;
+  background-color: #fff;
+}
+
+/* Features section icons styling */
+/* First division        */
+.first-div {
+  margin: 50px 30px;
+}
+
+.check-mark {
+  margin-bottom: 20px;
+  width: 100%;
+  color: #E1578A;
+}
+
+.check-mark:hover {
+  color: #FFA1C9;
+}
+
+/* Second division */
+.bullseye {
+  margin-bottom: 30px;
+  color: #B61919;
+}
+
+.bullseye:hover {
+  color: #FF5C58;
+}
+
+.second-div {
+  margin: 50px 30px;
+}
+
+/* Third division */
+.third-div {
+  margin: 50px 30px;
+}
+
+.heart {
+  border-bottom: 30px;
+  margin-bottom: 25px;
+  color: #E1578A;
+}
+
+.heart:hover {
+  color: #FFA1C9;
+}
+
+/* Testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #FDD2BF;
+  color: #F90716;
+}
+
+#loc {
+  color: black;
+}
+
+.testimonials-img {
+  width: 20%;
+  border-radius: 100%;
+  margin: 30px;
+}
+
+/* Press section */
+#press {
+  text-align: center;
+  background-color: #FDD2BF;
+  padding-bottom: 20px;
+}
+
+.press-img {
+  margin: 0 20px 30px;
+  width: 15%;
+}
+
+/* Carousel */
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing section */
+#pricing-btn {
+  width: 100%;
+  text-align: center;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-intro {
+  font-family: 'Gentium Book Basic', serif;
+  color: #FC28FB;
+  font-size: 3rem;
+}
+
+.pricing-intro-sub {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.pricing-col {
+  padding: 8% 2%;
+}
+
+   /* Extra div at features section */
+.extra {
+  margin-top: 50px;
+  background-color: #fff;
+
+}
+
+@media (max-width:1150px) {
+  #main-img {
+    max-width: 60%;
+    transform: rotate(0);
+    height: 60%;
+  }
+
+  .button {
+    max-width: 90%;
+    text-align: center;
+  }
+
+.main-title {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+}
+
+/* Footer Section */
+
+#cta {
+  text-align: center;
+  background-color: #E1578A;
+  padding: 100px 0;
+}
+
+.footer-text{
+  color: #fff;
+  font-size: 2.5rem;
+  padding: 0 200px 50px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.footer {
+  text-align: center;
+  font-weight: bold;
+  margin-top:  50px;
+}
+
+/* Social media icons styling */
+
+.twitter {
+  color: #7FB5FF;
+  margin: 0 10px;
+}
+.fb {
+  color: #001D6E;
+  margin: 0 10px;
+}
+.instagram {
+  color: #9A0680;
+  margin: 0 10px;
+}
+.gmail {
+  color: #EA5C2B;
+  margin: 0 10px;
+}
